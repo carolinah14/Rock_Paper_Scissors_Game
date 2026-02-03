@@ -1,68 +1,27 @@
-# Rock_Paper_Scissors_Game
-This is a simple text-based Rock Paper Scissors game where you play against the computer!
-A beginner-friendly Python project from my 100 Days of Code journey.
+# Rock Paper Scissors Game (Python)
 
-🧠 What I learned
+A beginner-friendly Python console game where the player competes against the computer in a classic game of Rock, Paper, Scissors. The project demonstrates user input handling, conditional logic, and basic use of randomness to create an interactive experience.
 
-How to use lists and indexes in Python
+## ▶️ How to Run
 
-How to apply conditional logic (if, elif, else)
+1. Make sure you have Python installed on your computer.
+2. Download or clone this repository.
+3. Open a terminal (or your preferred Python IDE).
+4. Navigate to the folder containing the file.
+5. Run the script using:
 
-How to generate random choices with the random module
+   python rock_paper_scissors_game1.py
 
-How to validate user input
+6. Follow the on-screen instructions to play against the computer.
 
-Practiced using comparison operators (<, >, ==) and logical operators (and, or)
+## 🧠 Concepts Practiced
 
-🎮 How it works
+- User interaction with `input()` and `print()`
+- Conditional statements (`if`, `elif`, `else`)
+- Comparison operators and basic game logic
+- Lists and indexing
+- Random number generation using the `random` module
+- Input validation
+- Multi-line strings for ASCII art output
 
-You choose between Rock (0), Paper (1), or Scissors (2)
 
-The computer randomly selects one option
-
-The program compares both choices and displays the result:
-
-Win 🎉
-
-Lose 💀
-
-Tie 🤝
-
-If the input is invalid, the program lets you know right away
-
-🖥️ Example Output
-Welcome!
-What do you choose? Type 0 for Rock, 1 for Paper and 2 for Scissors 2
-You chose:
-    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)
-
-Computer chose:
-    _______
----'   ____)____
-          ______)
-          _______)
-         _______)
----.__________)
-
-You lose!
-
-🧩 Technologies Used
-
-Python 3
-
-Built-in random library
-
-🚀 Run it yourself
-
-Clone this repository
-
-Open the file in your code editor
-
-Run the script with
-
-python rock_paper_scissors_game1.py
